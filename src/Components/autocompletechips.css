@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid black;
+    margin-top: 100px;
+    width: 500px;
+    margin: 0 auto;
+    border: none;
+}
+
+.pick{
+    color: blue;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.chip-remove{
+    cursor: pointer;
+    color: black;
+    border-radius: 20px;
+    margin-left: 13px;
+    padding-right: 8px;
+}
+
+
+
+.tj{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid blue;
+}
+
+.chip{
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+    border-radius: 20px;
+    padding:1px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #b0aeae77;
+   
+}
+
+
+.chip-highlighted {
+    border: 2px solid #8478f7; 
+  }
+
+.chip:focus{
+    border: 1px solid blue;
+}
+
+input{
+    border: none;
+    width: 100px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+
+
+.container {
+    position: relative;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    z-index: 1; 
+    background-color: #fff; 
+    border: none; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+  
+    
+}
+
+.scrollable-list {
+    max-height: 250px; 
+    overflow-y: auto;
+  }
+
+.list-item {
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.list-item:hover {
+    background-color: #f2f2f2; 
+}
+
+.autocomplete-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.img-name{
+    display: flex;
+    white-space: pre;
+    align-items: center;
+}
+
+.avatar {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px; 
+    border-radius: 25px;
+}
+
+.name {
+    font-weight: bold; 
+    font-size: 14px;
+}
+
+.email {
+    color: #777; 
+ 
+}
